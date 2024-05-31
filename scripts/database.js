@@ -72,3 +72,8 @@ const database = [
         weakness: 'Close Talkers'
     }
 ];
+
+//export pikomon data as a copy that can be manipulated
+
+export const pikomonData = () => database.map((pikomon) => ({ ...pikomon }))
+
