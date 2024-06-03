@@ -15,8 +15,8 @@ export const createPikomonHtml = () => {
         pikomonHtml += `
             <article class="piko-card">
             <img class="piko-img" src="${piko.imageUrl}" alt="Picture of ${piko.name}">
-            <h3>#${piko.id} ${piko.name}</h3>
-            <ul class="piko-details">
+            <h3 class="honk">#${piko.id} ${piko.name}</h3>
+            <ul class="piko-info bungee-spice">
                 <li class="piko-category">Category: ${piko.category}</li>
                 <li class="piko-abilities">Ability: ${piko.abilities}</li>
                 <li class="piko-weakness">Weakness: ${piko.weakness}</li>
@@ -27,9 +27,3 @@ export const createPikomonHtml = () => {
     return pikomonHtml
 }
 
-// id: 9,
-// name: 'Skunch',
-// imageUrl: 'assets/skunch.png',
-// category: 'Mischievous',
-// abilities: 'Master of Pranks',
-// weakness: 'Close Talkers'
