@@ -1,6 +1,16 @@
+body {
+    background-color:rgb(243, 115, 217);
+}
+
+.honk {
+    font-family: "Honk", sans-serif;
+}
+
+.bungee-spice {
+    font-family: "Bungee Spice";
+}
 #title {
     text-align: center;
-    font-family: copperplate;
     font-size: 5em;
     margin-top: 1rem;
 }
@@ -14,8 +24,20 @@
 }
 
 .piko-card {
-    flex-basis: 25%;
+    display: flex;
+    flex-basis: 20%;
     margin: 3em;
+    width: 33%;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px black;
+    background-color: rgb(40, 38, 40);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.piko-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px 16px black;
 }
 
 .piko-img {
@@ -29,22 +51,13 @@
 
 .info-text {
     font-family: monospace;
-    font-size: 1rem;
+    font-size: .5rem;
 }
 
 .piko-name {
-    font-family: "copperplate", fantasy;
-    font-size: 1.5em;
+    font-size: 20px;
 }
 
-.piko-abilities {
-
-}
-
-.piko-category {
-
-}
-
-.piko-weakness {
-
+footer {
+    font-family: "Borel";
 }
